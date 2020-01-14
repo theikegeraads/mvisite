@@ -1,2 +1,3 @@
-# mvisite
-mvi site
+# MVI Site
+
+Bestanden voor de MVI Examenopdracht
