@@ -3,36 +3,55 @@
 
 <head>
     <meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <style>
-        * {
-            /* box-sizing: border-box; */
-        }
         .column {
             float: left;
             width: 33.33%;
             height: 560px;
-            margin-top: 0px;4
+            margin-top: 0px;
         }
+
         .row:after {
             content: "";
             display: table;
             clear: both;
         }
+
         p,
         h2 {
             font-size: large;
             text-align: center;
             color: #eeeeee;
-            margin: 6px;;
+            margin: 6px;
+            ;
         }
+
         body {
             font-family: sans-serif;
             background: rgb(136, 104, 255);
             background: linear-gradient(90deg, rgba(136, 104, 255, 1) 17%, rgba(100, 149, 237, 1) 56%, rgba(77, 225, 255, 1) 100%);
-            
 
+
+        }
+
+        #button1 {
+            background-color: #de3c3c;
+            height: 50px;
+            width: 70px;
+            border-radius: 30px;
+            border: solid #6b1f1f;
+            color: white;
+            font-size: 15px;
+            margin-top: 10px;
+            margin-left: 10px;
+        }
+
+        #button1:active {
+            background-color: darkred;
+            border: solid #ab1a1a;
+            cursor: pointer;
         }
     </style>
 
@@ -45,17 +64,20 @@
 </head>
 
 <body>
-  <p style="font-family: 'Times New Roman', Times, serif; font-size: 35px;"><b> Workshops!</b><br></p>
-<p style="font-family: 'Times New Roman', Times, serif;" >Er zijn drie workshops op 30 juni. 
-Er liggen inschrijfformulieren bij de informatiebalie.
-Vol is vol, dus schrijf je op tijd in</p style>
+    <a href="index.html"><button class="rollover" id="button1">Terug</button></a>
+    <p style="font-family: 'Times New Roman', Times, serif; font-size: 35px;"><b> Workshops!</b><br></p>
+    <p style="font-family: 'Times New Roman', Times, serif;">Er zijn drie workshops op 30 juni.
+        Er liggen inschrijfformulieren bij de informatiebalie.
+        Vol is vol, dus schrijf je op tijd in</p style>
 
 
     <div class="row">
         <div class="column" style="background-color:#95ed64;">
 
             <p style='text-align: center'>
-                <b><div style="font-size: 20px; text-align: center;">Workshop: Hoe teken je een held?</div></b><br><br><br>
+                <b>
+                    <div style="font-size: 20px; text-align: center;">Workshop: Hoe teken je een held?</div>
+                </b><br><br><br>
 
                 Een bekende striptekenaar laat in deze workshop tips en trucs zien.
                 Bijvoorbeeld hoe je je eigen superheld kunt schetsen en uitwerken in kleur.
@@ -72,7 +94,9 @@ Vol is vol, dus schrijf je op tijd in</p style>
 
         </div>
         <div class="column" style="background-color:#6495ed;">
-            <p><b><div style="text-align: center; font-size: 20px;" >Laten bewegen, zo doe je dat!</div></b>
+            <p><b>
+                    <div style="text-align: center; font-size: 20px;">Laten bewegen, zo doe je dat!</div>
+                </b>
                 <br><br><br>
 
                 Deze workshop gaat een stap verder in de animatietechniek: hoe kun je jouw eigen stripfiguur laten
@@ -88,7 +112,9 @@ Vol is vol, dus schrijf je op tijd in</p style>
         </div>
 
         <div class="column" style="background-color:#ed6464;">
-            <p><b><div style="font-size: 20px; text-align: center;"> Werk met animatiesoftware!</b><br><br><br>
+            <p><b>
+                    <div style="font-size: 20px; text-align: center;"> Werk met animatiesoftware!
+                </b><br><br><br>
                 De eerste beginselen om je held daadwerkelijk digitaal over het scherm te laten bewegen leer je in deze
                 basiscursus.
                 Aan het eind van de cursus kun je geanimeerde tekstballonnen maken. Of beweegt jouw digitale held over
