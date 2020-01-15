@@ -2,13 +2,14 @@
 <html>
 
 <head>
-    <meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <style>
     * {
       box-sizing: border-box;
     }
+
     .column {
       float: left;
       width: 33.33%;
@@ -16,18 +17,38 @@
       margin-top: 100px;
 
     }
+
     .row:after {
       content: "";
       display: table;
       clear: both;
     }
+
     p {
       font-size: large;
     }
 
-    body{
+    body {
       background: rgb(136, 104, 255);
-            background: linear-gradient(90deg, rgba(136, 104, 255, 1) 17%, rgba(100, 149, 237, 1) 56%, rgba(77, 225, 255, 1) 100%);
+      background: linear-gradient(90deg, rgba(136, 104, 255, 1) 17%, rgba(100, 149, 237, 1) 56%, rgba(77, 225, 255, 1) 100%);
+    }
+
+    #button1 {
+      background-color: #de3c3c;
+      height: 50px;
+      width: 70px;
+      border-radius: 30px;
+      border: solid #6b1f1f;
+      color: white;
+      font-size: 15px;
+      margin-top: 10px;
+      margin-left: 10px;
+    }
+
+    #button1:active {
+      background-color: darkred;
+      border: solid #ab1a1a;
+      cursor: pointer;
     }
   </style>
 
@@ -41,31 +62,36 @@
 </head>
 
 <body>
+  <a href="index.html"><button class="rollover" id="button1">Terug</button></a>
   <div class="row">
     <div class="column" style="background-color:#95ed64;">
       <h2></h2>
       <p style='text-align: center'>
         <b>Met je held op de foto</b><br><br><br>
-        
-Bij Comics & Heroes kun je samen met je favoriete comicheld op de foto! 
-Met behulp van een greenscreen-opname kun je een actieshot laten maken samen met je held en een bijpassende achtergrond. Alsof je een rol speelt in de actiefilm!
+
+        Bij Comics & Heroes kun je samen met je favoriete comicheld op de foto!
+        Met behulp van een greenscreen-opname kun je een actieshot laten maken samen met je held en een bijpassende
+        achtergrond. Alsof je een rol speelt in de actiefilm!
 
 
       </p>
     </div>
     <div class="column" style="background-color:#6495ed;">
       <p style="text-align: center; margin-top: 20px;"><b>3D Virtuality & Movies</b><br><br><br>
-     
-        Van 17.00 tot 18.00 uur wordt een lezing gegeven over de Pokemon-hype uit 2016. 
-        Vanaf 19.00 draaien in de grote filmzaal de nieuwste helden- en avonturenfilms. 
-        Vooraf wordt de ‘making of’ getoond van deze films. Daarin zie je wat er allemaal komt kijken bij het maken van zulke actiefilms. 
-        
+
+        Van 17.00 tot 18.00 uur wordt een lezing gegeven over de Pokemon-hype uit 2016.
+        Vanaf 19.00 draaien in de grote filmzaal de nieuwste helden- en avonturenfilms.
+        Vooraf wordt de ‘making of’ getoond van deze films. Daarin zie je wat er allemaal komt kijken bij het maken van
+        zulke actiefilms.
+
       </p>
     </div>
     <div class="column" style="background-color:#ed6464;">
       <p style="text-align: center; margin-top: 20px;"><b>Gaming & Comics</b><br><br><br>
-      
-        Hal 2 is helemaal ingericht voor het betere gamewerk. Grote schermen maken het mogelijk om samen de nieuwste games uit te proberen. Maar er is ook een mogelijkheid om in je eigen gamewereld te stappen. Dit alles met fantastische geluidseffecten.
+
+        Hal 2 is helemaal ingericht voor het betere gamewerk. Grote schermen maken het mogelijk om samen de nieuwste
+        games uit te proberen. Maar er is ook een mogelijkheid om in je eigen gamewereld te stappen. Dit alles met
+        fantastische geluidseffecten.
         </pstyle="text-align: center; margin-top: 20px;">
     </div>
   </div>
