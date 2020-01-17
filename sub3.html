@@ -51,9 +51,53 @@
  
 
     body {
-      background: rgb(0,209,75);
-background: linear-gradient(90deg, rgba(0,209,75,1) 0%, rgba(8,72,0,1) 100%);
+      background: rgb(136, 104, 255);
+      background: linear-gradient(90deg, rgba(136, 104, 255, 1) 17%, rgba(100, 149, 237, 1) 56%, rgba(77, 225, 255, 1) 100%);
+    
+      /* fade test? */
+    margin-top: 25px;
+    font-size: 21px;
+    text-align: center;
+    animation: fadein 1s;
+    -moz-animation: fadein 2s; /* Firefox */
+    -webkit-animation: fadein 2s; /* Safari and Chrome */
+    -o-animation: fadein 2s; /* Opera */
+}
+@keyframes fadein {
+    from {
+        opacity:0;
     }
+    to {
+        opacity:1;
+    }
+}
+@-moz-keyframes fadein { /* Firefox */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-webkit-keyframes fadein { /* Safari and Chrome */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-o-keyframes fadein { /* Opera */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity: 1;
+    }
+
+    }
+/* fade end? */
+    
   </style>
 
   <!-- UIkit CSS -->
@@ -132,16 +176,13 @@ background: linear-gradient(90deg, rgba(0,209,75,1) 0%, rgba(8,72,0,1) 100%);
 
 
         Er kunnen veranderingen en kleine verschuivingen optreden in het dagprogramma. Kijk voor het actuele nieuws op
-        de grote schermen in de verschillende hallen en/of kijk op je mobiele telefoon. Surf naar <a href="https://blariacum.nl">www.comicsheroes.nl</a>
+        de grote schermen in de verschillende hallen en/of kijk op je mobiele telefoon. <a href="https://blariacum.nl"><br>Surf naar www.comicsheroes.nl</a>
 
       </p>
-
-      <div style="margin: 20px;" class="uk-text-center">
-        <div class="uk-inline-clip uk-transition-toggle" tabindex="0">
-          <img src="media/foto/3D + movie 2.jpg" alt="">
-          <img class="uk-transition-scale-up uk-position-cover" src="media/foto/3D + movie 1.jpg" alt="">
-        </div>
-      </div>
+<a target="_blank" href="https://blariacum.nl"><span>
+  <img style="width: 300px; margin-left:14%;" src="/media/foto/bamboozeld.png">
+</span></a>
+    
     </div>
   </div>
 </body>

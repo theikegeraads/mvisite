@@ -9,7 +9,7 @@
         .column {
             float: left;
             width: 33.33%;
-            height: 610px;
+            height: 644 px;
             margin-top: 0px;
             margin-bottom: 0px;
         }
@@ -34,7 +34,51 @@
             background: linear-gradient(90deg, rgba(136, 104, 255, 1) 17%, rgba(100, 149, 237, 1) 56%, rgba(77, 225, 255, 1) 100%);
             z-index: 1;
 
-        }
+             /* fade test? */
+    margin-top: 25px;
+    font-size: 21px;
+    text-align: center;
+    animation: fadein 1s;
+    -moz-animation: fadein 1s; /* Firefox */
+    -webkit-animation: fadein 1s; /* Safari and Chrome */
+    -o-animation: fadein 1s; /* Opera */
+}
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-moz-keyframes fadein { /* Firefox */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-webkit-keyframes fadein { /* Safari and Chrome */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-o-keyframes fadein { /* Opera */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity: 1;
+    }
+
+    }
+/* fade end? */
+
+        
 
         #button1 {
             background-color: #de3c3c;
@@ -75,7 +119,7 @@
     <!--  -->
 
     
-    <p class="m0" style="font-family: 'Times New Roman', Times, serif; font-size: 35px;"><b> Workshops!</b><br></p>
+    <p class="m0" style="font-family: 'Times New Roman', Times, serif; font-size: 35px;"> Workshops!<br></p>
     <p style="font-family: 'Times New Roman', Times, serif; ;">Er zijn drie workshops op 30 juni.
         Er liggen inschrijfformulieren bij de informatiebalie.
         Vol is vol, dus schrijf je op tijd in</p style>

@@ -13,8 +13,8 @@
     .column {
       float: left;
       width: 33.33%;
-      height: 641px;
-      /* margin-top: 10px; */
+      height: 591px;
+      margin-top: 10px;
 
     }
 
@@ -31,9 +31,50 @@
     body {
       background: rgb(136, 104, 255);
       background: linear-gradient(90deg, rgba(136, 104, 255, 1) 17%, rgba(100, 149, 237, 1) 56%, rgba(77, 225, 255, 1) 100%);
-      padding: 0px 0px 0px 0px ;
-      margin: 0px 0px 0px 0px;
+       /* fade test? */
+    /* margin-top: 25px; */
+    font-size: 21px;
+    text-align: center;
+    animation: fadein 1s;
+    -moz-animation: fadein 2s; /* Firefox */
+    -webkit-animation: fadein 2s; /* Safari and Chrome */
+    -o-animation: fadein 2s; /* Opera */
+}
+@keyframes fadein {
+    from {
+        opacity:0;
     }
+    to {
+        opacity:1;
+    }
+}
+@-moz-keyframes fadein { /* Firefox */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-webkit-keyframes fadein { /* Safari and Chrome */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-o-keyframes fadein { /* Opera */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity: 1;
+    }
+
+    }
+/* fade end? */
+    
 
     #button1 {
       background-color: #de3c3c;
@@ -99,8 +140,8 @@
       </p>
       <div style="margin: 20px;" class="uk-text-center">
         <div class="uk-inline-clip uk-transition-toggle" tabindex="0">
-            <img src="media/foto/held + foto 1.jpg" alt="">
-            <img class="uk-transition-scale-up uk-position-cover" src="media/foto/held + foto 2.jpg" alt="">
+            <img style="border-radius:10px;" src="media/foto/held + foto 1.jpg" alt="">
+            <img style="border-radius:10px;" class="uk-transition-scale-up uk-position-cover" src="media/foto/held + foto 2.jpg" alt="">
         </div>
     </div>
     </div>
@@ -115,8 +156,8 @@
       </p>
       <div style="margin: 20px;" class="uk-text-center">
         <div class="uk-inline-clip uk-transition-toggle" tabindex="0">
-            <img src="media/foto/3D + movie 2.jpg" alt="">
-            <img class="uk-transition-scale-up uk-position-cover" src="media/foto/3D + movie 1.jpg" alt="">
+            <img style="border-radius:10px;" src="media/foto/3D + movie 2.jpg" alt="">
+            <img style="border-radius:10px;" class="uk-transition-scale-up uk-position-cover" src="media/foto/3D + movie 1.jpg" alt="">
         </div>
     </div>
       
@@ -131,8 +172,8 @@
         </p>
         <div style="margin: 20px;" class="uk-text-center">
           <div class="uk-inline-clip uk-transition-toggle" tabindex="0">
-              <img src="media/foto/gaming & comics 2.jpg" alt="">
-              <img class="uk-transition-scale-up uk-position-cover" src="media/foto/gaming & comics 1.jpg" alt="">
+              <img style="border-radius:10px;" src="media/foto/gaming & comics 2.jpg" alt="">
+              <img style="border-radius:10px;" class="uk-transition-scale-up uk-position-cover" src="media/foto/gaming & comics 1.jpg" alt="">
           </div>
     </div>
   </div>
